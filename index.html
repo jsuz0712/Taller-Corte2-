@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller1</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="icon" href="img/palanca-de-mando.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <article>
+            <figure id="logo">
+                <a href="#">
+                    <img src="img/palanca-de-mando.svg">
+                </a>
+            </figure>
+            <nav id="navegacion">
+                <a href="#">Home</a>
+                <a href="#">Layouts</a>
+                <a href="#">Elements</a>
+                <a href="#">Sign Up</a>
+            </nav>
+        </article>   
+    </header>
+
+    <main>
+        
+        <section id="video-yt">
+            <h1>Componente Video Youtube</h1>
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/zw47_q9wbBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section id="google-maps">
+            <h1>Componente Google Maps</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1618417824653!6m8!1m7!1sCAoSLEFGMVFpcE5wc0FsSW1rM2w1MUh3VTBqWWw2cXRFQ0EweUpvaDdEcWREc0NF!2m2!1d34.66711861961069!2d135.4304080456495!3f18.62149931343664!4f8.845090196110647!5f0.7820865974627469" width="853" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section id="mp4">
+            <h1>Componente Video Mp4</h1>
+            <video width="853" height="480" preload="auto" controls>
+                <source src="multimedia/videomp4.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section id="video-loop-muted">
+            <h1>Componente Video Loop Muted</h1>
+            <div id="capa">
+                <h1>Nintendo</h1>
+            </div>
+            <video width="853" height="480" preload="auto" controls="no" loop muted autoplay>
+                <source src="multimedia/video-loop.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section id="fancy-gallery">
+            <h1>Componente Galeria De Imagenes</h1>
+            <article>
+                <nav>
+                    <a href="https://picsum.photos/id/10/1280/720" data-fancybox="gallery">
+                        <img src="https://picsum.photos/id/10/250/250">
+                    </a>
+                    <a href="https://picsum.photos/id/11/1280/720" data-fancybox="gallery">
+                        <img src="https://picsum.photos/id/11/250/250">
+                    </a>
+                    <a href="https://picsum.photos/id/12/1280/720" data-fancybox="gallery">
+                        <img src="https://picsum.photos/id/12/250/250">
+                    </a>
+                    <a href="https://picsum.photos/id/13/1280/720" data-fancybox="gallery">
+                        <img src="https://picsum.photos/id/13/250/250">
+                    </a>
+                    <a href="https://picsum.photos/id/14/1280/720" data-fancybox="gallery">
+                        <img src="https://picsum.photos/id/14/250/250">
+                    </a>
+                    <a href="https://picsum.photos/id/15/1280/720" data-fancybox="gallery">
+                        <img src="https://picsum.photos/id/15/250/250">
+                    </a>
+                </nav>
+            </article>
+        </section>
+    </main>
+
+    <footer id="logo1">
+        <figure>
+            <a href="#">
+                <img src="img/footerlogo2.svg">
+            </a>
+            <h6>©Jesus. All rights reserved</h6>
+        </figure>   
+    </footer>
+
+<script src="js/script.js"></script>  
+</body>
+</html>
